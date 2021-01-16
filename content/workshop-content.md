@@ -5,14 +5,24 @@ nav_order: 4
 has_children: true
 has_toc: false
 ---
-## Schedule
+# Outline 
 
 | 0:00 | Introduction and setup 
 | 0:10 | [Visualization basics](introduction.html)
-| 0:30 | [Preparing your data](preparing_data.html)
-| 0:35 | [Introducing the Tableau interface](tableau-interface.html)   
-| _0:50_ | _Break_
-| 0:55 | [Creating graphs](creating-graphs.html)
-| 1:20 | Discussion and wrap-up
+| 0:25 | [Preparing your data](preparing_data.html)
+| 0:30 | [Introducing the Tableau interface](tableau-interface.html)   
+| _0:45_ | _Break_
+| 0:50 | [Creating graphs](creating-graphs.html)
+| 1:20 | [Saving your work](saving.html)
+| 1:20 | Conclusion 
 
+_(Times and content may vary)_
+
+In this workshop we begin with a dataset in CSV format containing 360,554 rows of data from Statistics Canada about labour and employment in Canada for selected months in 2020. By the end you will be able to create simple, clear graphs from the data like the ones below..
+
+<img src="example1.png" alt="Tableau graph example #1" />
+
+<img src="example2.png" alt="Tableau graph example #2" />
+
+<img src="example3.png" alt="Tableau graph example #3" />
 
