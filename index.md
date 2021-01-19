@@ -24,7 +24,7 @@ Requests for the free _Tableau Desktop_ student license are verified first, the 
 {: .note}
 
 ## Workshop slides
-- HTML
+- [HTML](../slides/index.html)
 - PDF
 
 ## Why Tableau? 
@@ -37,6 +37,6 @@ This is not an endorsement of Tableau: there are many options for data visualiza
 - Cannot connect directly to databases
 
 _Tableau Desktop_ does not have these limits, but it is not free. 
- 
-Current UBC students, faculty, and staff can use _Tableau Desktop_ on workstations in the Digital Scholarship Lab in Koerner Library or by signing in to a workstation remotely at <https://remotelabs.ubc.ca/#heading_1021>.
+
+Students at accredited academic institutions are eligible for a free one-year trial of _Tableau Desktop_ (see <https://www.tableau.com/academic/students>).
 {: .note}

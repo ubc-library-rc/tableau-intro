@@ -47,14 +47,16 @@
     <section>
 
 <h2>Intro to data visualization with Tableau</h2>
-<h3>UBC Library Research Commons</h3>
+<h4>UBC Library Research Commons</h4>
+<br />
 <p>Jeremy Buhler, <a href="mailto:jeremy.buhler@ubc.ca">jeremy.buhler@ubc.ca</a><br>
 Sarah Parker, <a href="mailto:sarah.parker@ubc.ca">sarah.parker@ubc.ca</a></p>
 
 </section>
 <section>
 
-<h2>Pre-workshop setup</h2>
+<h3>Pre-workshop setup</h3>
+<br/>
 
 <aside class="notes">
 
@@ -63,19 +65,17 @@ Sarah Parker, <a href="mailto:sarah.parker@ubc.ca">sarah.parker@ubc.ca</a></p>
 </aside>
 
 <ol>
-  <li>
-<em>Tableau Public</em> or <em>Tableau Desktop</em>
+  <li>Install <em>Tableau Public</em> or <em>Tableau Desktop</em>
 </li>
-  <li><a href="https://drive.google.com/uc?export=download&amp;id=1ke_9HZ9qoOLOPbWC5XhW3cw-70ba9Rua">Labour Force Survey, 2020 sample dataset</a></li>
-  <li>
-<a href="https://public.tableau.com/">Tableau Public account</a> (optional)</li>
+  <li>Download <a href="https://drive.google.com/uc?export=download&amp;id=1ke_9HZ9qoOLOPbWC5XhW3cw-70ba9Rua">Labour Force Survey sample dataset</a></li>
+  <li>Create <a href="https://public.tableau.com/">Tableau Public account</a> (optional)</li>
 </ol>
 
 </section>
 <section>
 
-<h2>Learning objectives</h2>
-
+<h3>Learning objectives</h3>
+<br/>
 <ol>
   <li>Recognize the characteristics of an effective visualization</li>
   <li>Format data for visualization</li>
@@ -85,8 +85,8 @@ Sarah Parker, <a href="mailto:sarah.parker@ubc.ca">sarah.parker@ubc.ca</a></p>
 </section>
 <section>
 
-<h2>Tableau Public</h2>
-
+<h3>Tableau Public</h3>
+<p>Limitations of the free version</p>
 <aside class="notes">
 
 <p>This workshop uses <em>Tableau Public</em> software to introduce data visualization concepts because it is freely available and accessible to beginners.</p>
@@ -94,17 +94,14 @@ Sarah Parker, <a href="mailto:sarah.parker@ubc.ca">sarah.parker@ubc.ca</a></p>
 <p>This is not an endorsement of Tableau: there are many options for data visualization and other software may be better in other contexts. While suitable as a teaching tool, <em>Tableau Public</em> imposes limitations that users should be aware of:</p>
 
 </aside>
-
-<ul>
+<ul style="margin-top: 20px">
   <li>Visualizations cannot be saved locally</li>
   <li>Dataset limit of 1M records</li>
   <li>Cannot connect databases</li>
 </ul>
 
-<p class="small"><em>Tableau Desktop</em> is available in the Digital Scholarship Lab (<a href="https://remotelabs.ubc.ca">https://remotelabs.ubc.ca</a>)</p>
-
 </section>
-<section>
+<section data-background-iframe="https://native-land.ca/api/embed/embed.html?maps=territories&amp;position=49.268264,-123.157480" data-background-interactive>
 
 <aside class="notes">
 
@@ -112,14 +109,11 @@ Sarah Parker, <a href="mailto:sarah.parker@ubc.ca">sarah.parker@ubc.ca</a></p>
 
 </aside>
 
-<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&amp;position=49.268264,-123.157480" style="width:100%; height:300px; border:none;"></iframe>
-
-<p class="small"><a href="https://native-land.ca/">native-land.ca</a></p>
-
+<p class="fragment" style="background-color: rgba(255,255,255,0.5); margin-top: 50%">The Vancouver Campus is located on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people.</p>
 </section>
 <section>
 
-<h2>Participating online</h2>
+<h3>Participating online</h3>
 
 <aside class="notes">
 
@@ -129,7 +123,7 @@ Sarah Parker, <a href="mailto:sarah.parker@ubc.ca">sarah.parker@ubc.ca</a></p>
 
 <p><img src="images/zoom_toolbar.png" alt="Zoom toolbar" width="510"></p>
 
-<p><img src="images/reactions.png" alt="Reactions menu"></p>
+<p class="fragment"><img src="images/reactions.png" alt="Reactions menu"></p>
 
 </section>
 <section>
@@ -141,20 +135,21 @@ The <em>Chat</em> window is a good place to report problems with your audio conn
 
 </aside>
 
-<h2>Writing on the screen</h2>
+<h4>Writing on the screen</h4>
 
 <p><img src="images/open_annotate_toolbar.png" alt="Menu with Annotate option"></p>
 
-<p><img src="images/annotate_toolbar.png" alt="The annotation toolbar"></p>
+<div class="fragment">
+	<p><img src="images/annotate_toolbar.png" alt="The annotation toolbar"></p>
 
-<p class="small">Drawings and text you add to the screen will be visible to everyone in the session or breakout room.</p>
+	<p class="small">Drawings and text you add to the screen will be visible to everyone.</p></div>
 
 </section>
 <section>
 
-<h2>Outline</h2>
+<h3>Outline</h3>
 
-<table>
+<table style="font-size:smaller">
   <tbody>
     <tr>
       <td>0:10</td>
@@ -192,21 +187,18 @@ The <em>Chat</em> window is a good place to report problems with your audio conn
 
 </aside>
 
-<p><img src="example1.png" alt="Tableau graph example #1"></p>
+<h3>Source data</h3>
+<p><img src="images/source.png" alt="Source data spreadsheet"></p>
 
 </section>
 <section>
 
-<p><img src="example2.png" alt="Tableau graph example #2"></p>
+<h3>Sample map output</h3> 
+<p><img src="sample-graph.png" alt="Tableau graph example"></p>
 
 </section>
+
 <section>
-
-<p><img src="example3.png" alt="Tableau graph example #3"></p>
-
-</section>
-<section>
-
 <p>“Data visualization is the graphical display of abstract information for two purposes: sense-making (also called data analysis) and communication.”</p>
 
 <p>-<em>Stephen Few, <a href="https://www.perceptualedge.com/blog/?p=2636">What is Data Visualization</a></em></p>
@@ -222,30 +214,44 @@ The <em>Chat</em> window is a good place to report problems with your audio conn
 </section>
 <section>
 
-<h2>Preattentive processing</h2>
-
-<aside class="notes">
+<h3>Preattentive processing</h3>
 
 <p>The eye and brain’s ability to process certain visual properties almost instantly, without conscious effort.</p>
 
-</aside>
+</section>
+
+<section>
+	<p><img src="images/preattentive-1.png"></p>
+	<p><img class="fragment" src="images/preattentive-2.png"/></p>
+	<br />
+	<p  class="small fragment">Figures on this and the next slide from Stephen Few, “Tapping the Power of Visual Perception” <a href="http://www.perceptualedge.com/articles/ie/visual_perception.pdf">http://www.perceptualedge.com/articles/ie/visual_perception.pdf</a></p>
 
 </section>
 <section>
 
-<p><img src="images/preattentive_attributes.png"><br>
-<em>Source: Stephen Few, “Tapping the Power of Visual Perception” <a href="http://www.perceptualedge.com/articles/ie/visual_perception.pdf">http://www.perceptualedge.com/articles/ie/visual_perception.pdf</a></em></p>
+<img src="images/preattentive_attributes.png">
 
-<p>Good graphs take advantage of this perceptual ability to make information almost immediately apparent with little cost to the viewer. This figure shows the preattentive visual attributes that are especially useful when visualizing data.<br>
-In the figure above it is easy to spot the differences: some of them pop out almost instantly, with no need to concentrate or look closely. When creating visualizations we can take advantage of these preattentive attributes to encode information, often using more than one attribute in the same graph.</p>
-
-<p>It is also clear from the figure that preattentive attributes have different powers. Some stand out more than others, and some can be used not only to distinguish <em>between</em> things (like shape), but to show differences in <em>amount</em> (like length). All of this may sound obvious, but that is precisely the point: by using visual cues that are obvious to most viewers we make it easier for them to see - and hopefully understand - the messages we want our visualizations to convey.<br>
-```</p>
 
 </section>
+
+
 <section>
 
-<p>Remove unneceassary content to keep the viewer focused</p>
+	<p>Encoding quantities: length and size</p>
+
+
+<img class="fragment" style="width:35%; margin-right:30px" src="images/size.png">
+<img class="fragment" style="width:35%; margin-left:30px" src="images/length.png"/>
+
+</section>
+
+<section>
+
+	<p>Remove unnecessary content to <b>focus</b> the viewer</p>
+
+
+<img class="fragment" style="width:35%; margin-right:30px" src="images/cluttered.png">
+<img class="fragment" style="width:35%; margin-left:30px" src="images/clean.png"/>
 
 <aside class="notes">
 
@@ -259,8 +265,11 @@ In the version on the right, removing redundant text and changing text shading, 
 
 </section>
 <section>
+	<img height="500" src="images/colorblind.png" />
+	<p class="small">Source: Jeffrey Shaffer, <a href="https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463">https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463</a></p>
+</section>
+<section>
 
-<h2>Using color</h2>
 <p>Use colors intentionally to <strong>encode information</strong></p>
 
 <aside class="notes">
@@ -276,17 +285,13 @@ In the version on the right, removing redundant text and changing text shading, 
 
 </aside>
 
-<div style="float:left;">
-<img width="100%" src="images/multicolor.png">
-</div>
-<div style="display: block; float:right;">
-<img src="images/singlecolor.png">
-</div>
+<img class="fragment" style="width:35%; margin-right:30px" src="images/multicolor.png">
+<img class="fragment" style="width:35%; margin-left:30px" src="images/singlecolor.png"/>
 
 </section>
 <section>
 
-<h2>Some guiding principles</h2>
+<h3>Some guiding principles</h3>
 <ol>
   <li><strong>Choose clarity over variety</strong></li>
   <li><strong>Reduce burden on the reader</strong></li>
@@ -315,95 +320,21 @@ We increase the credibility and integrity of our work by citing data sources and
 </section>
 <section>
 
-<h2>Each measure in one column</h2>
+<h3>Each measure in one column</h3>
 
 <aside class="notes">
 
 <p>If you’re working with tabular data (e.g. Excel, csv), format it so that each measure appears in one column only. A table like this will be harder to work with and will have fewer visualization options than this table with the same information:</p>
 
 </aside>
+<p><img src="images/wide-data.png" /></p>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th style="text-align: center">march</th>
-      <th style="text-align: center">april</th>
-      <th style="text-align: center">may</th>
-      <th style="text-align: center">june</th>
-      <th style="text-align: center">july</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>kittens_adopted</td>
-      <td style="text-align: center">0</td>
-      <td style="text-align: center">0</td>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">0</td>
-      <td style="text-align: center">2</td>
-    </tr>
-    <tr>
-      <td>meals_ordered</td>
-      <td style="text-align: center">8</td>
-      <td style="text-align: center">11</td>
-      <td style="text-align: center">17</td>
-      <td style="text-align: center">13</td>
-      <td style="text-align: center">23</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>month</th>
-      <th style="text-align: center">kittens_adopted</th>
-      <th style="text-align: center">meals_ordered</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>march</td>
-      <td style="text-align: center">0</td>
-      <td style="text-align: center">8</td>
-    </tr>
-    <tr>
-      <td>april</td>
-      <td style="text-align: center">0</td>
-      <td style="text-align: center">11</td>
-    </tr>
-    <tr>
-      <td>may</td>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">17</td>
-    </tr>
-    <tr>
-      <td>june</td>
-      <td style="text-align: center">0</td>
-      <td style="text-align: center">13</td>
-    </tr>
-    <tr>
-      <td>july</td>
-      <td style="text-align: center">2</td>
-      <td style="text-align: center">23</td>
-    </tr>
-  </tbody>
-</table>
+<p class="fragment"><img  src="images/long-data.png" /></p>
 
 </section>
 <section>
-
-<h2>Remove non-data content</h2>
-
-<aside class="notes">
-
-<p>Excel worksheets often begin with titles and other information, with the actual data starting below. Subtitles and empty lines within the data table may further interfere with visualization software’s ability to interpret the contents. Removing extra lines and non-data content is a good general practice, though Tableau can often identify the data elements correctly during import.</p>
-
-</aside>
-
-<h2>Know your dataset</h2>
-<ul>
+<h3>Know your dataset</h3>
+<ul class="fragment" style="margin-top: 40px">
   <li>How is it formatted?</li>
   <li>How many records are there?</li>
   <li>What are the variable labels?</li>
@@ -418,23 +349,17 @@ We increase the credibility and integrity of our work by citing data sources and
 
 </aside>
 
-<p>4 months of data from the Statistics Canada Labour Force Survey (Jan, Apr, Jul, and Oct 2020)</p>
 
 </section>
-<section>
 
-<h2>Variables in sample dataset</h2>
-
-<aside class="notes">
-
-<p>To make it easier to work with in Tableau the sample dataset is a modified subset of the original data. Some variables were excluded and variable names and values were replaced with descriptive labels (see the <a href="resources.html">Resources</a> page for details about the changes). The dataset contains 360,554 observations of 23 variables:</p>
-
-</aside>
-
+<section data-background-iframe="https://ubc-library-rc.github.io/intro-data-viz/content/preparing_data.html#know-your-dataset" data-backtround-interactive>
 </section>
+
+
+
 <section>
 
-<h2>Checking your work</h2>
+<h3>Checking your work</h3>
 
 <aside class="notes">
 
@@ -442,19 +367,17 @@ We increase the credibility and integrity of our work by citing data sources and
 
 </aside>
 
-<div style="padding:20px 3% 0px 3%">
-<h3>Statistics Canada table</h3>
-<img src="images/statcan_table.png">
-</div>
-<div style="width:50%; padding:30px 3%">
-<h3>Graph produced from sample dataset</h3>
-<img src="images/clean_highlight.png">
-</div>
+<img  style="margin-right: 30px" src="images/clean_highlight.png">
+<span class="fragment">
+<img  src="images/statcan_table.png">
 
-<p>Statistics Canada table <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410001702">14-10-0017-02</a>, <em>Labour force characteristics by province, monthly, unadjusted for seasonality</em>.</p>
-
+<p class="small">Statistics Canada table <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410001702">14-10-0017-02</a>, <em>Labour force characteristics by province, monthly, unadjusted for seasonality</em>.</p>
+</span>
 </section>
 
+<section>
+	<h3>Hands-on practice</h3>
+<section>
   </div>
 </div>
 

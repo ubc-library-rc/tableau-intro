@@ -7,6 +7,9 @@ parent: Workshop content
 # Preparing your data
 This workshop emphasizes the visualization but in many cases your data will need to be manipulated, reformatted, and re-packaged _before_ you feed it to a visualization tool. Tableau (and other visualization tools) have some features to help clean messy data, but here are some general things to consider when preparing your data.
 
+[OpenRefine](https://openrefine.org) is a powerful open source tool for working with messy data. If you are familiar with the _R_ programming language, [Tidyverse](https://www.tidyverse.org/packages/) packages like _dplyr_ and _tidyr_ are also useful.
+{: .note}
+
 ## Each measure in one column
 If you're working with tabular data (e.g. Excel, csv), format it so that each measure appears in one column only. A table like this...
 
