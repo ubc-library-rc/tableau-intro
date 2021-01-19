@@ -24,8 +24,8 @@ Requests for the free _Tableau Desktop_ student license are verified first, the 
 {: .note}
 
 ## Workshop slides
-- [HTML](../slides/index.html)
-- PDF
+- [HTML](slides/index.html)
+- [PDF](slides/intro-data-viz-Tableau.pdf)
 
 ## Why Tableau? 
 This workshop uses _Tableau Public_ software to introduce data visualization concepts because it is freely available and accessible to beginners. 

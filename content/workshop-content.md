@@ -18,11 +18,6 @@ has_toc: false
 
 _(Times and content may vary)_
 
-In this workshop we begin with a dataset in CSV format containing 360,554 rows of data from Statistics Canada about labour and employment in Canada for selected months in 2020. By the end you will be able to create simple, clear graphs from the data like the ones below..
+In this workshop we begin with a dataset in CSV format containing 360,554 rows of data from Statistics Canada about labour and employment in Canada for selected months in 2020. By the end you will be able to create simple, clear graphs from the data like this map of unemployment rates. 
 
-<img src="example1.png" alt="Tableau graph example #1" />
-
-<img src="example2.png" alt="Tableau graph example #2" />
-
-<img src="example3.png" alt="Tableau graph example #3" />
-
+<img src="sample-graph.png" alt="Tableau map example" />
