@@ -48,6 +48,9 @@ Click the _Show Me_ button in the top right corner and select the shaded map. Th
 
 <img style="margin-left:40px; margin-bottom:50px" src="images/2-map-1-month.png" />
 
+If your map is blank you may need to change the Tableau settings. In the _Map_ menu select _Edit Locations_, then in the popup window click the drop-down menu for _Country/Region_ and select _None_.
+{: .note}
+
 ### *4*{: .circle .circle-yellow} Show other months 
 The map displays information in a smaller space, making it possible to show more information such as change over time.
 
@@ -57,8 +60,6 @@ The map displays information in a smaller space, making it possible to show more
 
 <img style="margin-left:40px; margin-bottom:50px" src="images/2-map-4-month.png" />
 
-If your map is blank you may need to change the Tableau settings. In the _Map_ menu select _Edit Locations_, then in the popup window click the drop-down menu for _Country/Region_ and select _None_.
-{: .note}
 
 ### *5*{: .circle .circle-yellow} Format for tidier display
 As you add elements to the chart it can become cluttered. Consider removing information that is not required and changing the size to fit your reporting needs.
