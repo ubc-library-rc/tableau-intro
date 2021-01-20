@@ -32,7 +32,7 @@ This workshop uses _Tableau Public_ software to introduce data visualization con
 
 This is not an endorsement of Tableau: there are many options for data visualization and other software may be better in other contexts. While suitable as a teaching tool, _Tableau Public_ imposes limitations that users should be aware of:
 
-- Visualizations cannot be saved locally, they must be saved to a _Tableua Public_ account online. Work saved to the cloud can be hidden from public view but this is not suitable for private or sensitive data. 
+- Visualizations cannot be saved locally, they must be saved to a _Tableau Public_ account online. Work saved to the cloud can be hidden from public view but this is not suitable for private or sensitive data. 
 - Dataset size limit of 1M records
 - Cannot connect directly to databases
 
