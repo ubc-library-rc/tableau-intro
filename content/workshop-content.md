@@ -14,7 +14,7 @@ has_toc: false
 | _0:45_ | _Break_
 | 0:50 | [Creating graphs](creating-graphs.html)
 | 1:20 | [Saving your work](saving.html)
-| 1:20 | Conclusion 
+| 1:25 | Conclusion 
 
 _(Times and content may vary)_
 
