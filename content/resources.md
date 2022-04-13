@@ -12,7 +12,7 @@ The recoded subset consists of the January, April, July, and October 2020 PUMFs 
 - variable names were replaced with human readable labels
 - numerical codes were replaced with human readable values
 
-The modifications are documented in an _R Markdown_ script ([LFS_microdata_transform.Rmd](https://www.github.com/ubc-library-rc/intro-data-viz/content/data/LFS_microdata_transform.Rmd)) and can be applied to other Labour Force Survey PUMFs. 
+The modifications are documented in an _R Markdown_ script ([LFS_microdata_transform.Rmd](data/LFS_microdata_transform.Rmd)) and can be applied to other Labour Force Survey PUMFs. 
 
 ### Books
 
