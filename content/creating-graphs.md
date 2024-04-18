@@ -57,7 +57,7 @@ Right-click the green _Statistical Weight_ pill in the _Columns_ shelf and selec
 <img style="margin-left:40px; margin-bottom:50px" src="images/1-percentage.png" />
 
 ## Exercise
-The unemployed row shows 3.77% but this is not actually correct: Statistics Canada unemployment rate calculations exclude people "Not in labour force."  
+The unemployed row shows 3.85% but this is not actually correct: Statistics Canada unemployment rate calculations exclude people "Not in labour force."  
 
 Take a moment to explore and see if you can solve this problem. What is the actual unemployment rate for January 2020?
 
@@ -67,7 +67,7 @@ Take a moment to explore and see if you can solve this problem. What is the actu
 <p><strong>Solution 1:</strong> on the bar graph, right click the label "Not in labour force" and select <em>Exclude</em>. (Notice that this adds a new <em>Labour force status</em> filter to to the <em>Filters</em> card.)</p>
 <p><strong>Solution 2:</strong> drag the<em>Labour Force Survey</em>dimension from the left menu to the<em>Filters</em>card and exclude "Not in labour force".</p>
 <img style="margin-left:40px; margin-bottom:50px" src="images/1-exercise.png" />
-<p>Canada's unemployment rate for January 2020 was <strong>5.84%</strong></p>
+<p>Canada's unemployment rate for January 2020 was <strong>5.93%</strong></p>
 </div>
 </details>
 

@@ -17,7 +17,7 @@ At the end of this workshop, you will be able to:
 This workshop includes hands-on practice with Tableau software. To participate fully please do the following **before the workshop**
 
 1. Install [Tableau Desktop Public Edition](https://www.tableau.com/products/public/download) (free) or [Tableau Desktop](https://www.tableau.com/academic/students) (free for verified students) on your computer. Both versions work equally well for this workshop. 
-2. Download the [Labour Force Survey, 2020 sample dataset](https://drive.google.com/uc?export=download&id=1ke_9HZ9qoOLOPbWC5XhW3cw-70ba9Rua) (CSV file on Google Drive, 72MB).
+2. Download the [Labour Force Survey, 2020 sample dataset](https://drive.google.com/uc?export=download&id=1KyJBj-pSiOq1CnZgfdmmF1Sjn2uJx8dg) (CSV file on Google Drive, 72MB).
 3. **Optional:** if you are using _Tableau Desktop Public Edition_ and would like to save your work, sign up for a free [Tableau Public account](https://public.tableau.com/).
 
 Requests for the free _Tableau Desktop_ student license are verified first, the download is not immediate. If installing shortly before the workshop choose _Tableau Desktop Public Edition_ instead.   
@@ -25,7 +25,6 @@ Requests for the free _Tableau Desktop_ student license are verified first, the 
 
 ## Workshop slides
 - [HTML](slides/index.html)
-- [PDF](slides/intro-data-viz-Tableau.pdf)
 
 ## Why Tableau? 
 This workshop uses _Tableau Desktop Public Edition_ software to introduce data visualization concepts because it is freely available and accessible to beginners. 
